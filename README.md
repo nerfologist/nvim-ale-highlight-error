@@ -6,7 +6,9 @@ plugin managers too).
 
 Clone this repo.
 
-From the root folder, start Neovim with the provided `init.vim`.
+From the root folder:
+- install node_modules (just eslint): `yarn`
+- start Neovim with the provided `init.vim`.
 
 ```
 nvim -u ./init.vim test.js
